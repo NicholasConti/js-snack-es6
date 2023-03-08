@@ -9,3 +9,21 @@ SNACK1
         - nove invitato 
         - indice +1
 
+SNACK2
+- creo un array di oggetti che contiene gli studenti con i loro parametri
+
+- per stampare le targhe: 
+    - uso il metodo forEach a cui passo l argomento element
+    - stampo in console l elemento.nome + il metodo uppercase per rendere la scritta tutta in maiuscolo
+
+- per stampare gli studenti che hanno un voto superiore a 70
+    - uso il metodo filter passando l elemento come nel forEach
+      - inserisco la condizione element.voti > 70 ===> return true
+    
+    - stampo in console l array ottenuto dal filter
+
+- per stampare gli studenti che hann un voto > 70 e un id > 120
+    - utilizzo l array ottenuto dal filter e inserisco la condizione 
+        id > 120 
+    
+    - stampo l array ottenuto
