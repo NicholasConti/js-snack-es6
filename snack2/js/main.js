@@ -42,3 +42,11 @@ const targhe = studenti.map((elemet) => {
     return elemet.nome.toUpperCase();
 });
 console.log(targhe);
+
+const over70 = studenti.filter((elemet) => {
+    if(elemet.grade > 70){
+        return true;
+    }
+    return false;
+});
+console.log(over70);
