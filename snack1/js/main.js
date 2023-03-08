@@ -43,3 +43,6 @@ const invitati = [
     }
 ];
 
+invitati.forEach((element, index) => {
+    console.log(element.nomeTavolo, element.nomeInvitato, index + 1);
+})
