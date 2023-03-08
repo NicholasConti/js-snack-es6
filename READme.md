@@ -13,8 +13,8 @@ SNACK2
 - creo un array di oggetti che contiene gli studenti con i loro parametri
 
 - per stampare le targhe: 
-    - uso il metodo forEach a cui passo l argomento element
-    - stampo in console l elemento.nome + il metodo uppercase per rendere la scritta tutta in maiuscolo
+    - uso il metodo Map a cui passo l argomento element
+    - ritorno element.nome.uppercase per avere i nomi in maiuscolo
 
 - per stampare gli studenti che hanno un voto superiore a 70
     - uso il metodo filter passando l elemento come nel forEach
