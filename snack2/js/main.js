@@ -38,11 +38,13 @@ const studenti = [
     }
 ];
 
+//METODO PER OTTENERE LA LISTA DEI NOMI IN MAIUSCOLO
 const targhe = studenti.map((elemet) => {
     return elemet.nome.toUpperCase();
 });
 console.log(targhe);
 
+// METODO PER OTTENERE GLI STUDENTI CON VOTO > 70
 const over70 = studenti.filter((elemet) => {
     if(elemet.grade > 70){
         return true;
@@ -50,3 +52,13 @@ const over70 = studenti.filter((elemet) => {
     return false;
 });
 console.log(over70);
+
+// METODO PER OTTENERE GLI STUDENTI CON VOTO>70 E ID>120
+
+const over70120 = over70.filter((elemet) => {
+    if(elemet.id > 120){
+        return true;
+    }
+    return false;
+});
+console.log(over70120);
