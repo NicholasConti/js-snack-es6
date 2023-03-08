@@ -37,3 +37,8 @@ const studenti = [
         grade: 84,
     }
 ];
+
+const targhe = studenti.map((elemet) => {
+    return elemet.nome.toUpperCase();
+});
+console.log(targhe);
