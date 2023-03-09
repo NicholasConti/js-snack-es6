@@ -27,3 +27,9 @@ SNACK2
         id > 120 
     
     - stampo l array ottenuto
+
+SNACK3
+- Creo un array di oggetti
+- utilizzando il metodo filter ricavo in un altro array la bici che pesa meno
+- destrutturo l oggetto contenuto nell array ricavato dal filter
+- stampo in console il  risultato
