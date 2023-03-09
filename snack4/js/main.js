@@ -1,5 +1,10 @@
 "use strict";
+// FUNCTIONS
+ const getRandomNumber = (max) =>{
+    return Math.floor(Math.random() * max);
+ };
 
+//MAIN
 const serieA = [
     {
         nome: 'Atalanta',
@@ -102,3 +107,15 @@ const serieA = [
         falli: 0
     }
 ];
+
+
+const serieAwData = serieA.map((element) => {
+    return{
+        nome: element.nome,
+        punti: getRandomNumber(115),
+        falli: getRandomNumber(700)
+    }
+
+});
+
+console.log(serieAwData);
