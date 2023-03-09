@@ -1,5 +1,6 @@
 "use strict";
 // FUNCTIONS
+//funzione che restituisce un numero random compreso tra 0 e max
  const getRandomNumber = (max) =>{
     return Math.floor(Math.random() * max);
  };
@@ -108,14 +109,21 @@ const serieA = [
     }
 ];
 
-
-const serieAwData = serieA.map((element) => {
+// metodo che crea un array con numeri random nei parametri falli e punti
+const serieArandom = serieA.map((element) => {
     return{
         nome: element.nome,
         punti: getRandomNumber(115),
         falli: getRandomNumber(700)
     }
-
 });
 
-console.log(serieAwData);
+// metodo che crea un array con parametri solo nomi e falli
+const soloNomeFalli = serieArandom.map((element) => {
+    const {nome, falli} = element;
+    return{
+        nome: nome,
+        falli: falli
+    };
+});
+console.log(soloNomeFalli);

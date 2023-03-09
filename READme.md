@@ -49,6 +49,9 @@ SNACK4
 
 - con il metodo map creo un altro array di squadre ma con valori random assegnati a falli e punti
 
-- destrutturo gli oggetti contenuti nell array
 
-- creo un nuovo array con i dati destrutturati
+- creo un nuovo array dall array precedente con map
+    - destruttuo gli oggetti contenuti nell aray
+    - ritorno solo i valori che mi interessano
+
+- console log
