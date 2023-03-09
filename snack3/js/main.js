@@ -31,3 +31,17 @@ const bikes = [
     }
 ];
 
+let lighterBike = {
+    brand: 'boh',
+    kg: 0
+};
+
+bikes.forEach((element) => {
+    if((element.kg < lighterBike.kg) || (lighterBike.kg === 0)){
+        lighterBike.brand = element.brand;
+        lighterBike.kg = element.kg;
+    }
+});
+
+const {brand , kg} = lighterBike;
+console.log(`La bici piu leggera e ${brand} con il peso di ${kg}`);
