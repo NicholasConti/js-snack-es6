@@ -30,6 +30,9 @@ SNACK2
 
 SNACK3
 - Creo un array di oggetti
-- utilizzando il metodo filter ricavo in un altro array la bici che pesa meno
-- destrutturo l oggetto contenuto nell array ricavato dal filter
-- stampo in console il  risultato
+- inizzializzo un oggetto in cui inseriro i dati della bici piu leggera
+- utilizzando il metodo foreach confronto il peso delle bici nell array con il peso della bici piu leggera
+
+- una volta ciclati tutti i dati destrutturo i parametri salvati nell oggetto 
+
+- stampo in console i dati
