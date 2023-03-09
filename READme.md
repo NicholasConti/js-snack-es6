@@ -9,6 +9,8 @@ SNACK1
         - nove invitato 
         - indice +1
 
+---------------------------------------------------------------------
+
 SNACK2
 - creo un array di oggetti che contiene gli studenti con i loro parametri
 
@@ -28,6 +30,8 @@ SNACK2
     
     - stampo l array ottenuto
 
+---------------------------------------------------------------------
+
 SNACK3
 - Creo un array di oggetti
 - inizzializzo un oggetto in cui inseriro i dati della bici piu leggera
@@ -36,3 +40,15 @@ SNACK3
 - una volta ciclati tutti i dati destrutturo i parametri salvati nell oggetto 
 
 - stampo in console i dati
+
+---------------------------------------------------------------------
+
+SNACK4
+- Creo un array di oggetti di squadre di calcio.
+    -Ogni squadra ha come parametri: nome, punti fatti = 0, falli subiti = 0.
+
+- con il metodo map creo un altro array di squadre ma con valori random assegnati a falli e punti
+
+- destrutturo gli oggetti contenuti nell array
+
+- creo un nuovo array con i dati destrutturati
